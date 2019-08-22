@@ -13,15 +13,15 @@ public class Main {
 
 	RegExprVisitorIsEmpty revisit = new RegExprVisitorIsEmpty();
 	reg1.accept(revisit);
-	System.out.println("Is reg1 empty: " + revisit.getIsEmpty());
+	System.out.println("Is regular expression `reg1` empty? " + revisit.getIsEmpty());
 	reg2.accept(revisit);
-	System.out.println("Is reg2 empty: " + revisit.getIsEmpty());
+	System.out.println("Is regular expression `reg2` empty? " + revisit.getIsEmpty());
 	reg3.accept(revisit);
-	System.out.println("Is reg3 empty: " + revisit.getIsEmpty());
+	System.out.println("Is regular expression `reg3` empty? " + revisit.getIsEmpty());
 	reg4.accept(revisit);
-	System.out.println("Is reg4 empty: " + revisit.getIsEmpty());
+	System.out.println("Is regular expression `reg4` empty? " + revisit.getIsEmpty());
 	reg5.accept(revisit);
-	System.out.println("Is reg5 empty: " + revisit.getIsEmpty());
+	System.out.println("Is regular expression `reg5` empty? " + revisit.getIsEmpty());
 	System.exit(0);
     }
 }
