@@ -18,7 +18,7 @@
   </target>
 
   <target name="compile" depends="init"
-	  description="source files are compiled">
+          description="source files are compiled">
     <javac srcdir="${src}" destdir="${build}" includeantruntime="false">
       <compilerarg value="-Xlint"/>
       <compilerarg value="-Werror"/>
@@ -32,7 +32,7 @@
   </target>
 
   <target name="clean"
-	  description="limpia todo">
+          description="limpia todo">
     <!-- Borra el árbol de directorios ${build} -->
     <delete dir="${build}"/>
     <delete>
